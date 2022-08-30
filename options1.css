@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width:500px;
+    float:left;
+    height: 70px;
+}
+#img{
+    float:left;
+    margin-right: 31px;
+    margin-top: 15px;
+    box-shadow: 0 0 20px 0 #999;
+}
+.logo{
+    color:cornsilk;
+    background-color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    position: relative;
+    right: 30px;
+    float: left;
+    padding: 20px 10px 20px 10px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 12px;
+    box-shadow: 0 0 20px 0 #999;
+}
+.menu{
+    width: 700px;
+    float: left;
+    height: 70px;   
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 95px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:black;
+}
+
+.steps{
+    width: 520px;
+    height: 471px;
+    float:right;
+    position: relative;
+    bottom: 330px;
+    left: 20px;
+    background-image: url(facts.png);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+.btn{
+    border-radius: 20px;
+    color: coral;
+    padding: 15px;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;  
+    font-weight: bold;
+}
+#bt1{
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#bt2{
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#bt3{
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#bt4{
+    margin-left: 75px;
+    margin-top: 60px;
+}

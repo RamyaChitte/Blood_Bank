@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <div class="contact">
+        <form action="contact.php" method="post">
+            <input type="text" name="name" class="input-field" placeholder="Enter your name">
+            <input type="email" name="email" class="input-field" placeholder="Enter your email">
+            <input type="text" name="sub" class="input-field" placeholder="Subject">
+            <textarea type="text" name="message" class="input-field textarea-field" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn" id="send">Send Message!</button>
+            <a href="index.html"><button type="button" class="btn" id="bt">Home</button></a>  
+        </form>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("send").onclick=function(){
+            alert("Thank you for contacting us!");
+        }
+    </script>
+</body>
+
+</html>

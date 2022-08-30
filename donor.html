@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Donate</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="donor.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Donor Details</div>
+    <div class="content">
+      <form action="donor.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Donor ID</span>
+            <input type="text" name="did" placeholder="Enter your id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Fullname</span>
+            <input type="text" name="name" placeholder="Enter your Fullname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Height</span>
+            <input type="text" name="height" placeholder="Enter your height in ft" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Weight</span>
+            <input type="text" name="weight" placeholder="Enter your weight in kg" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Select Blood Group</span>
+            <select type="text" name="bgp">
+                <option>Select</option>
+                <option>O+ve</option>
+                <option>O-ve</option>
+                <option>A+ve</option>
+                <option>A-ve</option>
+                <option>B+ve</option>
+                <option>B-ve</option>
+                <option>AB+ve</option>
+                <option>AB-ve</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Donation Type</span>
+            <select type="text" name="dtp">
+                <option>Select</option>
+                <option>Blood</option>
+                <option>Plasma</option>
+                <option>Both</option>
+            </select>            
+          </div>
+
+          <div class="input-box">
+            <span class="details">Number of vaccine doses</span>
+            <select type="text" name="nvac">
+                <option>Select</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Covid Test</span>
+            <select type="text" name="ct">
+                <option>Select</option>
+                <option>Done</option>
+                <option>Not Done</option>
+            </select>
+            <h6>(If done, report is required)</h6>
+          </div>
+          <div class="input-box">
+            <span class="details">Donate On</span>
+            <input type="date" name="don">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Quantity you would like to donate</span>
+            <input type="text" name="qty" placeholder="Enter quantity in ml" required>
+          </div>
+
+        </div> 
+        <div class="button" id="reg">
+          <input type="submit" value="Become A Donor">
+        </div>
+        <script type="text/javascript">
+            document.getElementById("reg").onclick=function(){
+               alert("Thank you for saving a life!");
+            }
+
+        </script>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

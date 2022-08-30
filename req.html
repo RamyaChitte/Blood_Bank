@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Receive</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="req.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Request Details</div>
+    <div class="content">
+      <form action="req.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">User/Hospital ID</span>
+            <input type="text" name="rid" placeholder="Enter your id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">User/Hospital Name</span>
+            <input type="text" name="name" placeholder="Enter the name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Required Blood Group</span>
+            <select type="text" name="bgp">
+                <option>Select</option>
+                <option>O+ve</option>
+                <option>O-ve</option>
+                <option>A+ve</option>
+                <option>A-ve</option>
+                <option>B+ve</option>
+                <option>B-ve</option>
+                <option>AB+ve</option>
+                <option>AB-ve</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Required Type</span>
+            <select type="text" name="rtp">
+                <option>Select</option>
+                <option>Blood</option>
+                <option>Plasma</option>
+                <option>Both</option>
+            </select>            
+          </div>
+          <div class="input-box">
+            <span class="details">Critical Level</span>
+            <select type="text" name="cl">
+                <option>Select</option>
+                <option>1-3 (Low)</option>
+                <option>4-7 (Moderate)</option>
+                <option>8-10 (High)</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Required Quantity</span>
+            <input type="text" name="qty" placeholder="Enter quantity in ml" required>
+            
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" name="dis" placeholder="Enter the address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Required On</span>
+            <input type="date" name="ron">
+          </div>
+
+
+        </div>
+        
+        <div class="button" id="reg">
+          <input type="submit" value="Request">
+        </div>
+        <script type="text/javascript">
+            document.getElementById("reg").onclick=function(){
+               alert("Your request was successful!");
+            }
+
+        </script>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

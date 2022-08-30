@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: Century Gothic;
+    background: url(abt.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    height: 95vh;
+    width: 35%;
+    background: rgba(0,0,0,.85);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 0 20px;
+}
+.container h1{
+    color: white;
+    margin-top: 20px;
+
+}
+.container h2{
+    color: white;
+    margin-top: 20px;
+
+}
+.container p{
+    color: white;
+    margin-top: 20px;
+    font-size: large;
+}
+ul li{
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+    padding: 10px;
+    background-color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    
+}
+#bt{
+    margin-left: 250px;
+}
+#ph{
+    color: white;
+    margin-left: 17px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+#no{
+    color: white;
+    position: relative;
+    bottom: 15px;
+    left:5px;
+}
+#em{
+    color: white;
+    margin-left: 17px;
+    position: relative;
+    right: 210px;
+    top:18px;
+    font-size: 20px;
+}
+#emid{
+    color: white;
+    margin-left: 17px;
+    position: relative;
+    left: 25px;
+    bottom: 7px;
+    font-size: 19px;
+}
+#pl{
+    color: white;
+    margin-left: 17px;
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+}
+.add{
+    color: white;
+    margin-left: 17px;
+    position: relative;
+    left: 3px;
+    bottom: 37px;
+    font-size: 18px;
+}
+
+.add ul li{
+    list-style: none;
+}

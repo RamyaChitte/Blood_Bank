@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="login.php" method="post">
+        <div class="txt_field">
+          <input type="text" name="usr" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <input type="submit" value="Login" id="log">
+        <div class="signup_link" id="reg">
+          Not a member? <a href="#">Register</a>
+        </div>
+        <a href="regusr.html" style="text-decoration: none;"><button type="button" class="btn" id="bt" style="display:none;">Register as user</button></a>
+        <a href="reghos.html" style="text-decoration: none;"><button type="button" class="btn" id="bt2" style="display:none;">Register as hospital</button></a>
+
+      </form>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("reg").onclick=function(){
+          document.getElementById("bt").style.display= "block";
+          document.getElementById("bt2").style.display= "block";
+        }
+        document.getElementById("bt").addEventListener("mouseover", mouseOver);
+        document.getElementById("bt").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+          document.getElementById("bt").style.color = "black";
+        }
+
+        function mouseOut() {
+          document.getElementById("bt").style.color = "#e9f4fb";
+        }
+
+        document.getElementById("bt2").addEventListener("mouseover", mouseOver2);
+        document.getElementById("bt2").addEventListener("mouseout", mouseOut2);
+
+        function mouseOver2() {
+          document.getElementById("bt2").style.color = "black";
+        }
+
+        function mouseOut2() {
+          document.getElementById("bt2").style.color = "#e9f4fb";
+        }
+
+
+    </script>
+
+  </body>
+</html>

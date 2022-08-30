@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="regusr.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="reghos.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Hospital Name</span>
+            <input type="text" name="name" placeholder="Enter hospital name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" name="username" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" name="phone" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" name="address" placeholder="Enter hospital address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Pincode</span>
+            <input type="text" name="pincode" placeholder="Enter pincode" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" name="pw" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" name="cpw" placeholder="Confirm your password" required>
+          </div>
+
+        </div>     
+        <div class="button" id="reg">
+          <input type="submit" value="Register">
+        </div>
+        <div id="para">You will be given 20 secs to make a note of your unique ID that will appear on the next page</div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

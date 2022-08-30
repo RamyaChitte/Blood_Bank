@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width:500px;
+    float:left;
+    height: 70px;
+}
+#img{
+    float:left;
+    margin-right: 31px;
+    margin-top: 15px;
+    box-shadow: 0 0 20px 0 #999;
+}
+.logo{
+    color:cornsilk;
+    background-color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    position: relative;
+    right: 30px;
+    float: left;
+    padding: 20px 10px 20px 10px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 12px;
+    box-shadow: 0 0 20px 0 #999;
+}
+.menu{
+    width: 700px;
+    float: left;
+    height: 70px;   
+}
+#tb{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tb li{
+    list-style: none;
+    margin-left: 95px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+#tb li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+#tb li a:hover{
+    color:black;
+}
+.details{
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.art{
+    background-color:cornsilk;
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px white;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .input-box{
+      position: relative;
+      top: 70px;
+  }
+  .input-box1{
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+#go{
+    box-shadow: 1px 1px 2px white;
+    height: 50px;
+    width: 55px;
+    border-radius: 10px;
+    text-decoration:none;
+    position:absolute;
+    left:870px;
+    top:140px;
+    border: 2px solid gray;
+    background-color: cornsilk;
+    font-size: 20px;
+  }
+
