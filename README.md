@@ -26,11 +26,11 @@ experience.
 
 
 ## Software
-Front End: HTML, CSS, JAVASCRIPT
-Connection/Controller: PHP
-Back-End: PHP
-Database: MySQL Software
-Text Editor: Visual Studio Code
+Front End: HTML, CSS, JAVASCRIPT;
+Connection/Controller: PHP;
+Back-End: PHP;
+Database: MySQL Software;
+Text Editor: Visual Studio Code;
 Server: Apache (on XAMPP 8.1.2)
 
 
