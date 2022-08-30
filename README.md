@@ -33,6 +33,12 @@ Database: MySQL Software;
 Text Editor: Visual Studio Code;
 Server: Apache (on XAMPP 8.1.2)
 
+# Snapshots
+![Screenshot 2022-08-30 211217](https://user-images.githubusercontent.com/87988971/187482429-1e3e4abd-b89b-41f9-9c16-bcc0c4782a67.jpg)
+![Screenshot 2022-08-30 211258](https://user-images.githubusercontent.com/87988971/187482433-a9d8350e-35a4-401a-b145-539854fef7d4.jpg)
+![Screenshot 2022-08-30 211328](https://user-images.githubusercontent.com/87988971/187482435-103335c8-d586-4e5a-b38c-1af634a8667b.jpg)
+![Screenshot 2022-08-30 211418](https://user-images.githubusercontent.com/87988971/187482423-a6999391-a283-47d6-88f2-a581a90b7ea4.jpg)
+
 
 
 
